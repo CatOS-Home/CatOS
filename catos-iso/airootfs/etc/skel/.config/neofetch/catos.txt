@@ -1,0 +1,23 @@
+
+${c1}                  cccccccccccccc
+              ',lccccccccccccccccc;'
+           ,ccccccccccccccccccccccccc;
+         ,cccccccccccccccccccccccccccccl'
+       .ccc${c2}lxkol${c1}cccccccccccccccccc${c2}lokxo${c1}ccc
+      ccccc${c2}dWWN0dl${c1}cccccccccccccc${c2}loONWWx${c1}cccc.
+     cccccc${c2}dWWWWN0ol${c1}ccccccccccc${c2}oONWWWWxl${c1}cccc.
+    ccccccc${c2}dWWWWWWN0kkkkkkkkkk0NWWWWWWxl${c1}ccccc.
+   ,ccccccc${c2}dWWWWWWWWWWWWWWWWWWWWWWWWWWxl${c1}cccccc
+   cccccccc${c2}dWWWWWWWWWWWWWWWWWWWWWWWWWWxl${c1}cccccc.
+   cccccccc${c2}dWWWWWWWWWWWWWWWWWWWWWWWWWWxl${c1}cccccc,
+  .cccccccc${c2}dWWWWW${c1}Kdllx${c2}XWWWWN${c1}kolo0${c2}NWWWWxl${c1}cccccc,
+   cccccccc${c2}dWWWWN${c1}xlcco0${c2}WWWW0${c1}occcx${c2}XWWWWx${c1}ccccccc'
+   :ccccccc${c2}oXWWWWN${c1}OkkK${c2}WWWWWWK${c1}kkO${c2}XWWWWXd${c1}ccccccc.
+   .ccccccc${c2}lkWWWWWWWWWWWWWWWWWWWWWWWWOl${c1}cccccc;
+    .ccccccc${c2}lOWWWWWWWWWWWWWWWWWWWWWW0o${c1}cccccc:
+     'ccccccc${c2}lxXWWWWWWWWWWWWWWWWWWNkl${c1}cccccc:
+      ,cccccccc${c2}lkXWWWWWWWWWWWWWWXOo${c1}ccccccc:.
+       .;cccccccc${c2}lok0XNWWWWNX0kdl${c1}cccccccc'
+          ;ccccccccccllllllllcccccccccc.
+           ':cccccccccccccccccccccccc;.
+              .,;ccccccccccccccc:;.
