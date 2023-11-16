@@ -28,6 +28,6 @@ Thanks to the excellent features of archlinux, CatOS is a lightweight  system th
 
 ## <font color=#2f81f7>Feedback</font>
 
-CatOS is currently in development phase. Please report issues you are experiencing and feel free to contact if you have any problem
+CatOS is currently in development phase. Please report issues you are experiencing and feel free to contact us if you have any problem
 
 
