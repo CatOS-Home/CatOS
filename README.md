@@ -1,3 +1,5 @@
+[简体中文](README_zh_CN.md)   [English](README.md)
+
 ## <font color=#2f81f7>Overview</font>
 
 CatOS is an open-source,Arch-based,out-of-the-box Linux distribution designed to provide an excellent operating system user experience.

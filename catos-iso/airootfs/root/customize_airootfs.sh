@@ -32,10 +32,10 @@ cat > "/etc/os-release" <<- _EOF_
 	ID=catos
 	BUILD_ID=rolling
 	ANSI_COLOR="38;2;23;147;209"
-	DOCUMENTATION_URL="https://wiki.archlinux.org/"
-	SUPPORT_URL="https://bbs.archlinux.org/"
-	BUG_REPORT_URL="https://bugs.archlinux.org/"
-	PRIVACY_POLICY_URL="https://terms.archlinux.org/docs/privacy-policy/"
+	DOCUMENTATION_URL="https://github.com/CatOS-Home/CatOS"
+	SUPPORT_URL="https://github.com/CatOS-Home/CatOS"
+	BUG_REPORT_URL="https://github.com/CatOS-Home/CatOS"
+	PRIVACY_POLICY_URL="https://github.com/CatOS-Home/CatOS"
 	LOGO=catos
 
 _EOF_
