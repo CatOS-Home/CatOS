@@ -32,6 +32,7 @@ cat > "/etc/os-release" <<- _EOF_
 	ID=catos
 	BUILD_ID=rolling
 	ANSI_COLOR="38;2;23;147;209"
+	HOME_URL="https://github.com/CatOS-Home/CatOS"
 	DOCUMENTATION_URL="https://github.com/CatOS-Home/CatOS"
 	SUPPORT_URL="https://github.com/CatOS-Home/CatOS"
 	BUG_REPORT_URL="https://github.com/CatOS-Home/CatOS"
