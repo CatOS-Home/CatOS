@@ -48,7 +48,6 @@ lftp
 libfido2
 libusb-compat
 linux
-linux-lts
 linux-atm
 linux-firmware
 linux-firmware-marvell
@@ -156,7 +155,6 @@ catos-folder-color
 grub-theme-vimix-color-1080p-git
 #os-prober
 linux-headers
-linux-lts-headers
 kdialog
 timeshift
 octopi
