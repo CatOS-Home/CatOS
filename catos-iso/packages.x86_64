@@ -130,7 +130,7 @@ base-devel
 python-pip
 yay
 plasma
-plasma-wayland-session
+#plasma-wayland-session
 konsole
 dolphin
 kate

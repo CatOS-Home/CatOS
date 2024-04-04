@@ -131,7 +131,7 @@ ln -s '/usr/lib/systemd/system/NetworkManager.service' '/etc/systemd/system/mult
 ln -s '/usr/lib/systemd/system/docker.service' '/etc/systemd/system/multi-user.target.wants/docker.service'
 
 #remove kde welcome
-rm /etc/xdg/autostart/org.kde.plasma-welcome.desktop
+#rm /etc/xdg/autostart/org.kde.plasma-welcome.desktop
 rm /etc/xdg/autostart/calamares.desktop
 
 mkdir /home/liveuser/Desktop
@@ -142,8 +142,8 @@ mv /etc/xdg/autostart/catos-advanced.desktop /home/liveuser/Desktop/catos-advanc
 sed -i 's/#Color/Color/g' /etc/pacman.conf
 
 
-sed -i 's/MODULES=()/MODULES=(vsock vmw_vsock_vmci_transport vmw_balloon vmw_vmci vmwgfx)/g' /etc/mkinitcpio.conf
-mkinitcpio -p linux
+#sed -i 's/MODULES=()/MODULES=(vsock vmw_vsock_vmci_transport vmw_balloon vmw_vmci vmwgfx)/g' /etc/mkinitcpio.conf
+#mkinitcpio -p linux
 
 
 ##fcitx5
@@ -158,7 +158,7 @@ echo 'GRUB_THEME="/usr/share/grub/themes/vimix-color-1080p/theme.txt"' >> /etc/d
 
 
 ##default icon
-sed -i 's/start-here-kde/catos/g' /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml
+#sed -i 's/start-here-kde/catos/g' /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml
 
 ###sddm
 sed -i 's:Current=.*:Current=sugar-candy-catos:g' /etc/sddm.conf.d/kde_settings.conf
