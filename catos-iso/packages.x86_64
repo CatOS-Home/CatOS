@@ -145,13 +145,13 @@ fish
 kwalletmanager
 ttf-jetbrains-mono
 imagemagick
-catos-aurorae
+#catos-aurorae
 papirus-icon-theme
 catos-theme
 catos-theme2
-catos-plasmoids
-catos-services
-catos-folder-color
+#catos-plasmoids
+#catos-services
+#catos-folder-color
 grub-theme-vimix-color-1080p-git
 #os-prober
 linux-headers
@@ -165,11 +165,11 @@ packagekit-qt5
 flatpak
 fwupd
 #######################vmware##########################
-gtkmm
-gtkmm3
-open-vm-tools
-xf86-input-vmmouse
-xf86-video-vmware
+#gtkmm
+#gtkmm3
+#open-vm-tools
+#xf86-input-vmmouse
+#xf86-video-vmware
 #######################################################
 nvidia
 #docker
@@ -190,3 +190,5 @@ catos-linuxbox
 ################Fix kde discover ############
 ocs-url
 qt5
+##kde6
+power-profiles-daemon
