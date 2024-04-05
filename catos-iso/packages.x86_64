@@ -192,3 +192,6 @@ ocs-url
 qt5
 ##kde6
 power-profiles-daemon
+#panel custom
+plasma6-applets-panel-colorizer
+catos-html-wallpaper
