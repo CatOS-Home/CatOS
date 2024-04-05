@@ -156,10 +156,13 @@ echo "SDL_IM_MODULE=fcitx" >> /etc/environment
 ##grub
 echo 'GRUB_THEME="/usr/share/grub/themes/vimix-color-1080p/theme.txt"' >> /etc/default/grub
 
+###修改plymounth默认主题为catos  /usr/share/plymouth/plymouthd.defaults
+sed -i 's/bgrt/catos/g' /usr/share/plymouth/plymouthd.defaults
+
 
 ##default icon
-#sed -i 's/start-here-kde/catos/g' /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml
-
+#sed -i 's/start-here-kde/\/usr\/share\/icons\/catos\/catos.svg/g' /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml
+sed -i 's/start-here-kde-symbolic/catos/g' /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml
 ###sddm
 sed -i 's:Current=.*:Current=sugar-candy-catos:g' /etc/sddm.conf.d/kde_settings.conf
 
