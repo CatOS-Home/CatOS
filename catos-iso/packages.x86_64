@@ -162,6 +162,7 @@ octopi
 ####################kde discover###########################
 archlinux-appstream-data
 packagekit-qt5
+packagekit-qt6
 flatpak
 fwupd
 #######################vmware##########################
@@ -171,7 +172,7 @@ fwupd
 #xf86-input-vmmouse
 #xf86-video-vmware
 #######################################################
-nvidia
+#nvidia
 #docker
 ######################fcitx5############################
 fcitx5-im
@@ -189,9 +190,15 @@ distrobox
 catos-linuxbox
 ################Fix kde discover ############
 ocs-url
-qt5
+#qt5
 ##kde6
 power-profiles-daemon
 #panel custom
 plasma6-applets-panel-colorizer
 catos-html-wallpaper
+kwin-decoration-sierra-breeze-enhanced-for-catos
+#######bluetooth########
+bluez
+bluedevil
+#catos software center
+catos-software-center
