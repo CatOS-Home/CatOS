@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="catos"
+iso_name="catos-for-nvidia"
 iso_label="CATOS"
 iso_publisher="CatOS"
 iso_application="CatOS Live/Rescue CD"
