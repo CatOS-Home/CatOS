@@ -183,7 +183,7 @@ fcitx5-material-color
 noto-fonts-emoji
 #######################################################
 alci-calamares
-catos-calamares-config
+catos-calamares-config-nvidia
 ####################Linux Box###########################
 podman
 distrobox
