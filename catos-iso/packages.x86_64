@@ -158,7 +158,11 @@ linux-headers
 kdialog
 timeshift
 octopi
+unrar
 #catos-pkghello
+spectacle
+catos-ocr
+catos-qrcode
 ####################kde discover###########################
 archlinux-appstream-data
 packagekit-qt5
@@ -182,7 +186,7 @@ fcitx5-pinyin-zhwiki
 fcitx5-material-color
 noto-fonts-emoji
 #######################################################
-alci-calamares
+catos-calamares
 catos-calamares-config
 ####################Linux Box###########################
 podman
