@@ -1,0 +1,13 @@
+# remove from airootfs!
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = plasma-desktop
+
+[Action]
+Description = Update KDE Logo
+When = PostTransaction
+Depends = plasma-desktop
+Depends = sed
+Exec = /usr/bin/sed -i "s/start-here-kde-symbolic/catos/g" /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml
