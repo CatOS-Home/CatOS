@@ -1,4 +1,3 @@
-# remove from airootfs!
 [Trigger]
 Operation = Install
 Operation = Upgrade
