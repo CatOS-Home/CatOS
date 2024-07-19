@@ -1,4 +1,4 @@
-[简体中文](README_zh_CN.md)   [English](README.md)
+[简体中文](README_zh_CN.md)   [English](README.md)   [日本語](README_ja_JP.md)
 
 ## <font color=#2f81f7>Overview</font>
 
