@@ -163,6 +163,8 @@ unrar
 spectacle
 catos-ocr
 catos-qrcode
+catos-folder-color
+catos-shortcut
 ####################kde discover###########################
 archlinux-appstream-data
 packagekit-qt5
@@ -192,6 +194,7 @@ catos-calamares-config
 podman
 distrobox
 catos-linuxbox
+catos-how
 ################Fix kde discover ############
 ocs-url
 #qt5
