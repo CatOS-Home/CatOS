@@ -186,6 +186,7 @@ fcitx5-pinyin-zhwiki
 fcitx5-material-color
 noto-fonts-emoji
 #######################################################
+#alci-calamares
 catos-calamares
 catos-calamares-config-nvidia
 ####################Linux Box###########################
@@ -207,6 +208,7 @@ bluedevil
 #catos software center
 ki18n5
 catos-software-center
+catos-how
 #######nvidia############
 nvidia
 nvidia-utils
