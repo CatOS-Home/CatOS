@@ -81,6 +81,7 @@ _EOF_
 
 ## -------------------------------------------------------------- ##
 ## 更换国内源
+echo 'Server = https://mirrors.cernet.edu.cn/archlinux/$repo/os/$arch' > /etc/pacman.d/mirrorlist
 echo 'Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch' > /etc/pacman.d/mirrorlist
 echo 'Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch' >> /etc/pacman.d/mirrorlist
 echo 'Server = https://mirrors.bfsu.edu.cn/archlinux/$repo/os/$arch' >> /etc/pacman.d/mirrorlist
@@ -136,7 +137,8 @@ rm /etc/xdg/autostart/calamares.desktop
 
 mkdir /home/liveuser/Desktop
 mv /etc/xdg/autostart/catos.desktop /home/liveuser/Desktop/catos.desktop
-mv /etc/xdg/autostart/catos-advanced.desktop /home/liveuser/Desktop/catos-advanced.desktop
+rm /etc/xdg/autostart/catos-advanced.desktop  #暂时移除联网安装
+#mv /etc/xdg/autostart/catos-advanced.desktop /home/liveuser/Desktop/catos-advanced.desktop
 
 
 sed -i 's/#Color/Color/g' /etc/pacman.conf
