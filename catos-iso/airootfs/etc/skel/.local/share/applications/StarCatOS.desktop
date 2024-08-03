@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Encoding=UTF-8
+Name=Star CatOS
+Comment=Star CatOS
+Exec=xdg-open https://github.com/CatOS-Home/CatOS
+Icon=catos
+Terminal=false
+Type=Application
+Categories=Network;
