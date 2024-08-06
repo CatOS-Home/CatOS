@@ -112,7 +112,7 @@ usb_modeswitch
 usbmuxd
 usbutils
 vim
-virtualbox-guest-utils-nox
+#virtualbox-guest-utils-nox # Replaced with virtualbox-guest-utils below
 vpnc
 wireless-regdb
 wireless_tools
@@ -151,7 +151,6 @@ catos-theme
 catos-theme2
 #catos-plasmoids
 #catos-services
-#catos-folder-color
 grub-theme-vimix-color-1080p-git
 #os-prober
 linux-headers
@@ -160,6 +159,7 @@ timeshift
 octopi
 unrar
 kio-admin
+kdeconnect
 #catos-pkghello
 spectacle
 catos-ocr
@@ -211,3 +211,14 @@ bluedevil
 #catos software center
 ki18n5
 catos-software-center
+
+# ===============
+# VM - VMware
+# ===========
+open-vm-tools
+gtkmm3
+
+# ===============
+# VM - VirtualBox
+# ===============
+virtualbox-guest-utils
