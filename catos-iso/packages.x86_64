@@ -222,3 +222,6 @@ gtkmm3
 # VM - VirtualBox
 # ===============
 virtualbox-guest-utils
+
+# virtual keyboard
+qt6-virtualkeyboard
