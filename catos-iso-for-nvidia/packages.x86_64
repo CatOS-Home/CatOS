@@ -216,3 +216,6 @@ nvidia
 nvidia-utils
 lib32-nvidia-utils
 nvidia-settings
+
+# virtual keyboard
+qt6-virtualkeyboard
