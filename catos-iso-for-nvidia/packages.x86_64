@@ -9,7 +9,7 @@ brltty
 broadcom-wl
 btrfs-progs
 clonezilla
-cloud-init
+#cloud-init
 cryptsetup
 darkhttpd
 ddrescue
@@ -146,14 +146,14 @@ kwalletmanager
 ttf-jetbrains-mono
 imagemagick
 #catos-aurorae
-papirus-icon-theme
+#papirus-icon-theme
 catos-theme
 catos-theme2
 #catos-plasmoids
 #catos-services
 #catos-folder-color
 grub-theme-vimix-color-1080p-git
-#os-prober
+os-prober
 linux-headers
 kdialog
 timeshift
@@ -219,3 +219,8 @@ nvidia-settings
 
 # virtual keyboard
 qt6-virtualkeyboard
+corekeyboard
+
+system-config-printer
+catos-fix-storage
+tela-icon-theme-git

@@ -9,7 +9,7 @@ brltty
 broadcom-wl
 btrfs-progs
 clonezilla
-cloud-init
+#cloud-init
 cryptsetup
 darkhttpd
 ddrescue
@@ -146,7 +146,7 @@ kwalletmanager
 ttf-jetbrains-mono
 imagemagick
 #catos-aurorae
-papirus-icon-theme
+#papirus-icon-theme
 catos-theme
 catos-theme2
 #catos-plasmoids
@@ -190,6 +190,7 @@ fcitx5-material-color
 noto-fonts-emoji
 #######################################################
 catos-calamares
+#alci-calamares
 catos-calamares-config
 ####################Linux Box###########################
 podman
@@ -225,3 +226,9 @@ virtualbox-guest-utils
 
 # virtual keyboard
 qt6-virtualkeyboard
+corekeyboard
+
+system-config-printer
+os-prober
+tela-icon-theme-git
+catos-fix-storage

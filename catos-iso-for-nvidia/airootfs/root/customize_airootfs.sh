@@ -115,6 +115,11 @@ echo 'Server = https://mirrors.tuna.tsinghua.edu.cn/arch4edu/$arch' >> /etc/pacm
 
 ## -------------------------------------------------------------- ##
 
+## 增加catos源
+echo '[catos]' >> /etc/pacman.conf
+echo 'SigLevel = Never' >> /etc/pacman.conf
+echo 'Server = https://pkgs.catos.info/$arch' >> /etc/pacman.conf
+
 #pip install questionary
 #设置时区
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
@@ -157,6 +162,7 @@ echo "SDL_IM_MODULE=fcitx" >> /etc/environment
 
 ##grub
 echo 'GRUB_THEME="/usr/share/grub/themes/vimix-color-1080p/theme.txt"' >> /etc/default/grub
+echo 'GRUB_DISABLE_OS_PROBER=false' >> /etc/default/grub
 
 ###修改plymounth默认主题为catos  /usr/share/plymouth/plymouthd.defaults
 #sed -i 's/bgrt/catos/g' /usr/share/plymouth/plymouthd.defaults
