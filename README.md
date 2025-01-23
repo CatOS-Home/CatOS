@@ -1,4 +1,4 @@
-[简体中文](README_zh_CN.md)   [English](README.md)
+[简体中文](README_zh_CN.md)   [English](README.md)    [Español](README_ES.md)  [日本語](README_JP.md)
 
 ## <font color=#2f81f7>Overview</font>
 
@@ -32,4 +32,6 @@ Thanks to the excellent features of Arch Linux, CatOS is a lightweight system th
 
 CatOS is currently in the development phase. Please report issues you are experiencing and feel free to contact us if you have any problems.
 
+## Star History
 
+[![Star History Chart](https://api.star-history.com/svg?repos=CatOS-Home/CatOS&type=Date)](https://star-history.com/#CatOS-Home/CatOS&Date)
