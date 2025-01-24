@@ -1,4 +1,4 @@
-[简体中文](README_zh_CN.md)   [English](README.md)
+[简体中文](README_zh_CN.md)   [English](README.md)    [Español](README_ES.md)  [日本語](README_JP.md)
 
 ## <font color=#2f81f7>简介</font>
 
@@ -34,3 +34,6 @@ CatOS旨在提供出色的操作系统用户体验，我们相信不管用户的
 
 CatOS目前仍处于快速开发阶段，有任何问题请提交issues。或者加入官方QQ交流群（428382413），参与开发或者提供反馈意见，每一个意见我们都会认真对待并且给出回复，期待与您共同打造一款优秀的中文Linux发行版。
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=CatOS-Home/CatOS&type=Date)](https://star-history.com/#CatOS-Home/CatOS&Date)
