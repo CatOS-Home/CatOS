@@ -103,7 +103,7 @@ echo ' ' >> /etc/pacman.conf
 ## 增加archlinuxcn源
 echo '[archlinuxcn]' >> /etc/pacman.conf
 echo 'SigLevel = Never' >> /etc/pacman.conf
-echo 'Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch' >> /etc/pacman.conf
+echo 'Server = https://mirrors.cernet.edu.cn/archlinuxcn/$arch' >> /etc/pacman.conf
 
 
 ## -------------------------------------------------------------- ##
@@ -111,7 +111,7 @@ echo 'Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch' >> /etc/p
 ## 增加arch4edu源
 echo '[arch4edu]' >> /etc/pacman.conf
 echo 'SigLevel = Never' >> /etc/pacman.conf
-echo 'Server = https://mirrors.tuna.tsinghua.edu.cn/arch4edu/$arch' >> /etc/pacman.conf
+echo 'Server = https://mirrors.cernet.edu.cn/arch4edu/$arch' >> /etc/pacman.conf
 
 ## -------------------------------------------------------------- ##
 
@@ -142,8 +142,8 @@ rm /etc/xdg/autostart/calamares.desktop
 
 mkdir /home/liveuser/Desktop
 mv /etc/xdg/autostart/catos.desktop /home/liveuser/Desktop/catos.desktop
-rm /etc/xdg/autostart/catos-advanced.desktop  #暂时移除联网安装
-#mv /etc/xdg/autostart/catos-advanced.desktop /home/liveuser/Desktop/catos-advanced.desktop
+#rm /etc/xdg/autostart/catos-advanced.desktop  #暂时移除联网安装
+mv /etc/xdg/autostart/catos-advanced.desktop /home/liveuser/Desktop/catos-advanced.desktop
 
 
 sed -i 's/#Color/Color/g' /etc/pacman.conf
@@ -161,7 +161,7 @@ echo "SDL_IM_MODULE=fcitx" >> /etc/environment
 
 
 ##grub
-echo 'GRUB_THEME="/usr/share/grub/themes/vimix-color-1080p/theme.txt"' >> /etc/default/grub
+echo 'GRUB_THEME="/usr/share/grub/themes/catos-grub-theme-dark-1080p/theme.txt"' >> /etc/default/grub
 echo 'GRUB_DISABLE_OS_PROBER=false' >> /etc/default/grub
 
 ###修改plymounth默认主题为catos  /usr/share/plymouth/plymouthd.defaults
