@@ -89,7 +89,7 @@ pv
 qemu-guest-agent
 refind
 #reflector
-reiserfsprogs
+#reiserfsprogs
 rp-pppoe
 rsync
 rxvt-unicode-terminfo
@@ -151,12 +151,14 @@ catos-theme
 catos-theme2
 #catos-plasmoids
 #catos-services
-grub-theme-vimix-color-1080p-git
+#grub-theme-vimix-color-1080p-git
+catos-grub-theme-dark
+#klassy
 #os-prober
 linux-headers
 kdialog
 timeshift
-octopi
+#octopi
 unrar
 kio-admin
 kdeconnect
@@ -166,10 +168,13 @@ catos-ocr
 catos-qrcode
 catos-folder-color
 catos-shortcut
+catos-wallpaper-effects
+catos-label
+catos-fcitx5-themes
 ####################kde discover###########################
 archlinux-appstream-data
 packagekit-qt5
-packagekit-qt6
+#packagekit-qt6
 flatpak
 fwupd
 #######################vmware##########################

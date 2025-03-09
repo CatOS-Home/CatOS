@@ -89,7 +89,7 @@ pv
 qemu-guest-agent
 refind
 #reflector
-reiserfsprogs
+#reiserfsprogs
 rp-pppoe
 rsync
 rxvt-unicode-terminfo
@@ -152,7 +152,8 @@ catos-theme2
 #catos-plasmoids
 #catos-services
 #catos-folder-color
-grub-theme-vimix-color-1080p-git
+#grub-theme-vimix-color-1080p-git
+catos-grub-theme-dark
 os-prober
 linux-headers
 kdialog
