@@ -44,7 +44,7 @@ wvdial
 gnu-netcat
 xl2tpd
 
-irssi # 聊天工具
+irssi
 #######################################################
 ###                  文件系统工具                   ###
 #######################################################
@@ -193,7 +193,7 @@ ocs-url
 #######################################################
 vim
 nano
-nano-syntax-highlighting # 增加nano的语法高亮
+nano-syntax-highlighting
 tmux
 screen
 less
@@ -235,6 +235,8 @@ plasma6-applets-panel-colorizer
 #######################################################
 ###                      livecd 工具                ###
 #######################################################
+arch-install-scripts
+archinstall
 gpart
 gparted
 gpm
