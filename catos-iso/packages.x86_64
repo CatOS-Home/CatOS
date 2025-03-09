@@ -158,7 +158,7 @@ catos-grub-theme-dark
 linux-headers
 kdialog
 timeshift
-#octopi
+octopi
 unrar
 kio-admin
 kdeconnect
