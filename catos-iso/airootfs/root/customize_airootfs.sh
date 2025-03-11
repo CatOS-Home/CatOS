@@ -138,6 +138,12 @@ ln -s '/usr/lib/systemd/system/NetworkManager.service' '/etc/systemd/system/mult
 #enable docker
 ln -s '/usr/lib/systemd/system/docker.service' '/etc/systemd/system/multi-user.target.wants/docker.service'
 
+#optimize the VM experience
+ln -s /usr/lib/systemd/system/vboxservice.service /etc/systemd/system/multi-user.target.wants/vboxservice.service
+ln -s /usr/lib/systemd/system/vmtoolsd.service /etc/systemd/system/multi-user.target.wants/vmtoolsd.service
+ln -s /usr/lib/systemd/system/vmware-networks.service /etc/systemd/system/multi-user.target.wants/vmware-networks.service
+ln -s /usr/lib/systemd/system/vmware-vmblock-fuse.service /etc/systemd/system/multi-user.target.wants/vmware-vmblock-fuse.service
+
 #remove kde welcome
 #rm /etc/xdg/autostart/org.kde.plasma-welcome.desktop
 rm /etc/xdg/autostart/calamares.desktop

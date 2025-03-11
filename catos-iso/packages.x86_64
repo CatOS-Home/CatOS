@@ -221,6 +221,8 @@ catos-software-center
 # ===============
 # VM - VMware
 # ===========
+xf86-input-vmmouse
+xf86-video-vmware
 open-vm-tools
 gtkmm3
 

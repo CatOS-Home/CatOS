@@ -82,13 +82,13 @@ _EOF_
 ## -------------------------------------------------------------- ##
 ## 更换国内源
 echo 'Server = https://mirrors.cernet.edu.cn/archlinux/$repo/os/$arch' > /etc/pacman.d/mirrorlist
-echo 'Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch' > /etc/pacman.d/mirrorlist
 echo 'Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch' >> /etc/pacman.d/mirrorlist
 echo 'Server = https://mirrors.bfsu.edu.cn/archlinux/$repo/os/$arch' >> /etc/pacman.d/mirrorlist
 echo 'Server = https://mirrors.aliyun.com/archlinux/$repo/os/$arch' >> /etc/pacman.d/mirrorlist
 echo 'Server = https://mirrors.bfsu.edu.cn/archlinux/$repo/os/$arch' >> /etc/pacman.d/mirrorlist
 echo 'Server = https://mirrors.xjtu.edu.cn/archlinux/$repo/os/$arch' >> /etc/pacman.d/mirrorlist
 echo 'Server = https://mirrors.shanghaitech.edu.cn/archlinux/$repo/os/$arch' >> /etc/pacman.d/mirrorlist
+echo 'Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch' >> /etc/pacman.d/mirrorlist
 
 ## -------------------------------------------------------------- ##
 ##更换主机名
@@ -120,6 +120,8 @@ echo '[catos]' >> /etc/pacman.conf
 echo 'SigLevel = Never' >> /etc/pacman.conf
 echo 'Server = https://pkgs.catos.info/$arch' >> /etc/pacman.conf
 
+## -------------------------------------------------------------- ##
+
 #pip install questionary
 #设置时区
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
@@ -135,6 +137,12 @@ echo "LANG=en_US.UTF-8" > /etc/locale.conf
 ln -s '/usr/lib/systemd/system/NetworkManager.service' '/etc/systemd/system/multi-user.target.wants/NetworkManager.service'
 #enable docker
 ln -s '/usr/lib/systemd/system/docker.service' '/etc/systemd/system/multi-user.target.wants/docker.service'
+
+#optimize the VM experience
+ln -s /usr/lib/systemd/system/vboxservice.service /etc/systemd/system/multi-user.target.wants/vboxservice.service
+ln -s /usr/lib/systemd/system/vmtoolsd.service /etc/systemd/system/multi-user.target.wants/vmtoolsd.service
+ln -s /usr/lib/systemd/system/vmware-networks.service /etc/systemd/system/multi-user.target.wants/vmware-networks.service
+ln -s /usr/lib/systemd/system/vmware-vmblock-fuse.service /etc/systemd/system/multi-user.target.wants/vmware-vmblock-fuse.service
 
 #remove kde welcome
 #rm /etc/xdg/autostart/org.kde.plasma-welcome.desktop
@@ -161,7 +169,9 @@ echo "SDL_IM_MODULE=fcitx" >> /etc/environment
 
 
 ##grub
+#echo 'GRUB_THEME="/usr/share/grub/themes/vimix-color-1080p/theme.txt"' >> /etc/default/grub
 echo 'GRUB_THEME="/usr/share/grub/themes/catos-grub-theme-dark-1080p/theme.txt"' >> /etc/default/grub
+
 echo 'GRUB_DISABLE_OS_PROBER=false' >> /etc/default/grub
 
 ###修改plymounth默认主题为catos  /usr/share/plymouth/plymouthd.defaults
@@ -176,6 +186,7 @@ sed -i 's/start-here-kde-symbolic/catos/g' /usr/share/plasma/plasmoids/org.kde.p
 
 ###修改默认为x
 ###sed -i 's:Session=.*:Session=plasmax11:g' /etc/sddm.conf.d/kde_settings.conf
+
 
 
 

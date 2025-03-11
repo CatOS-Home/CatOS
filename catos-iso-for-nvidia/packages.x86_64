@@ -171,16 +171,16 @@ catos-label
 catos-fcitx5-themes
 ####################kde discover###########################
 archlinux-appstream-data
-packagekit-qt5
+#packagekit-qt5
 #packagekit-qt6
 flatpak
 fwupd
 #######################vmware##########################
 #gtkmm
-#gtkmm3
-#open-vm-tools
-#xf86-input-vmmouse
-#xf86-video-vmware
+gtkmm3
+open-vm-tools
+xf86-input-vmmouse
+xf86-video-vmware
 #######################################################
 #nvidia
 #docker
