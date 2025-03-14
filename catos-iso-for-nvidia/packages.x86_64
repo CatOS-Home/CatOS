@@ -89,7 +89,7 @@ pv
 qemu-guest-agent
 refind
 #reflector
-reiserfsprogs
+#reiserfsprogs
 rp-pppoe
 rsync
 rxvt-unicode-terminfo
