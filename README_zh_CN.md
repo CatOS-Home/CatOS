@@ -9,6 +9,10 @@ Arch是一个优秀的Linux发行版，快速、稳定、安全，即使是在�
 
 ![image](./preview/desktop_cn.jpg)
 
+![image](./preview/preview_kde.png)
+
+![image](./preview/preview_gnome.png)
+
 ## <font color=#2f81f7>为什么选择CatOS?</font>
 
 ### 📤 <font color=#2f81f7>开箱即用</font>

@@ -8,6 +8,10 @@ Arch は高速で安定しており、安全で、古いコンピューターで
 
 ![image](./preview/desktop_en.png)
 
+![image](./preview/preview_kde.png)
+
+![image](./preview/preview_gnome.png)
+
 ## <font color=#2f81f7>CatOS を選ぶ理由</font>
 
 ### 📤 <font color=#2f81f7>すぐに使える</font>

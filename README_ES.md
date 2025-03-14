@@ -8,6 +8,10 @@ Arch es rápido, estable y seguro, y también le permite tener una excelente exp
 
 ![image](./preview/desktop_en.png)
 
+![image](./preview/preview_kde.png)
+
+![image](./preview/preview_gnome.png)
+
 ## <font color=#2f81f7>¿Por qué CatOS?</font>
 
 ### 📤 <font color=#2f81f7>Listo para usar</font>
