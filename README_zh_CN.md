@@ -1,4 +1,12 @@
-[简体中文](README_zh_CN.md)   [English](README.md)    [Español](README_ES.md)  [日本語](README_JP.md)
+<h1 align="center">🚀流畅、易用、开箱即用的 Arch Linux 体验🚀</h1>
+
+<div align="center">
+
+[**简体中文**](README_zh_CN.md) |  [**English**](README.md)  |  [**Español**](README_ES.md) | [**日本語**](README_JP.md)
+
+[**简介**](#简介) |  [**为什么选择CatOS?**](#为什么选择catos)  |  [**下载**](#下载) | [**安装**](#安装) | [**反馈**](#反馈)
+</div>
+
 
 ## <font color=#2f81f7>简介</font>
 
@@ -32,6 +40,22 @@ CatOS旨在提供出色的操作系统用户体验，我们相信不管用户的
 
 
 ![image](./preview/neofetch_cn.png)
+
+## <font color=#2f81f7>下载</font>
+
+**想体验 CatOS 了吗？立即下载 ISO 镜像开始您的旅程**
+
+[**⬇️  下载CatOS镜像**](https://catos.info/docs/download)
+
+*   点击上方链接，您将被引导至 CatOS 官方下载页面。
+*   在下载页面，您将下载到最新的 CatOS 稳定版本。
+*   为了确保您下载的 ISO 镜像文件完整且未被篡改，建议您在下载后 **[验证 ISO 镜像文件的校验和 (SHA256 或其他)]**。 校验和信息可以在下载页面找到。 
+
+
+## <font color=#2f81f7>安装</font>
+
+准备好安装 CatOS 了吗？ 我们的[**安装教程**](https://catos.info/docs/category/%E5%AE%89%E8%A3%85)将引导您轻松完成安装过程
+
 
 
 ## <font color=#2f81f7>反馈</font>
