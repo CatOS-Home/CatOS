@@ -1,10 +1,10 @@
-<h1 align="center">🚀 CatOS - Arch-Based, Out-of-the-Box Linux 🚀</h1>
+<h1 align="center">🚀CatOS - Arch-Based, Out-of-the-Box Linux🚀</h1>
 
 <div align="center">
 
 [**简体中文**](README_zh_CN.md) |  [**English**](README.md)  |  [**Español**](README_ES.md) | [**日本語**](README_JP.md)
 
-[**Overview**](#overview) |  [**Why CatOS?**](#why-catos)  |  [**Download**](#overview) | [**Installation**](#overview) | [**Feedback**](#overview)
+[**Overview**](#overview) |  [**Why CatOS?**](#why-catos)  |  [**Download**](#download) | [**Installation**](#installation) | [**Feedback**](#feedback)
 </div>
 
 ## <font color=#2f81f7>Overview</font>
