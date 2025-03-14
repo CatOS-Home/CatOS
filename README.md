@@ -1,7 +1,10 @@
-<h1 align="center">CatOS - Arch-Based, Out-of-the-Box Linux</h1>
+<h1 align="center">🚀 CatOS - Arch-Based, Out-of-the-Box Linux 🚀</h1>
 
 <div align="center">
+
 [**简体中文**](README_zh_CN.md) |  [**English**](README.md)  |  [**Español**](README_ES.md) | [**日本語**](README_JP.md)
+
+[**Overview**](#overview) |  [**Why CatOS?**](#why-catos)  |  [**Download**](#overview) | [**Installation**](#overview) | [**Feedback**](#overview)
 </div>
 
 ## <font color=#2f81f7>Overview</font>
@@ -34,6 +37,21 @@ CatOS is designed to be user-friendly. We believe that anyone, regardless of the
 Thanks to the excellent features of Arch Linux, CatOS is a lightweight system that runs smoothly and is stable and free from crashes.
 
 ![image](./preview/neofetch_en.png)
+
+## <font color=#2f81f7>Download</font>
+
+**Eager to experience CatOS? Download the ISO image now and begin your journey!**
+
+[**⬇️  Download CatOS ISO Image**](https://catos.info/en/docs/download)
+
+*   Click the link above to be directed to the official CatOS download page.
+*   On the download page, you can choose the latest CatOS version to download.
+*   To ensure the integrity and security of your downloaded ISO image file, it is recommended to **[Verify the checksum of the ISO image file (SHA256 or others)]** after downloading. Checksum information can usually be found on the download page. 
+
+
+## <font color=#2f81f7>Installation</font>
+
+Ready to install CatOS? Our [**Installation Guide**](https://catos.info/en/docs/installation/installation00) will walk you through the process with ease.
 
 
 ## <font color=#2f81f7>Feedback</font>
