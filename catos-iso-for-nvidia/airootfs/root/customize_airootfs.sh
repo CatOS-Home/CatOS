@@ -131,7 +131,18 @@ hwclock --systohc
 echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen
 echo "zh_CN.UTF-8 UTF-8" >> /etc/locale.gen
 locale-gen
-echo "LANG=en_US.UTF-8" > /etc/locale.conf
+cat > "/etc/locale.conf" <<- _EOF_
+LANG=zh_CN.UTF-8
+LC_ADDRESS=zh_CN.UTF-8
+LC_IDENTIFICATION=zh_CN.UTF-8
+LC_MEASUREMENT=zh_CN.UTF-8
+LC_MONETARY=zh_CN.UTF-8
+LC_NAME=zh_CN.UTF-8
+LC_NUMERIC=zh_CN.UTF-8
+LC_PAPER=zh_CN.UTF-8
+LC_TELEPHONE=zh_CN.UTF-8
+LC_TIME=zh_CN.UTF-8
+_EOF_
 
 #enable networkmanager
 ln -s '/usr/lib/systemd/system/NetworkManager.service' '/etc/systemd/system/multi-user.target.wants/NetworkManager.service'
